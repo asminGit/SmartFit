@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.sec-register{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-register{
+    background-color: rgb(241, 241, 241);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.card-register h1{
+    color: rgb(0, 76, 255);
+
+}
+
+
+.card-register input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(42, 42, 42, 0.333);
+    border-radius: 2px;
+}
+
+.card-register button{
+    width: 270px;
+    height: 30px;
+    background-color: rgb(59, 121, 255);
+    border: 1px solid rgba(0, 0, 0, 0.314);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.msg p{
+    color: rgb(255, 0, 0);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 121, 255);
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.sec-data-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+table{
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(77, 249, 103, 1);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.logo:hover a{
+    text-decoration: none;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.navigasi a{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.logout{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-home{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec1-home img{
+    height: 550px;
+
+}
+
+.sec1-home h1{
+    font-size: 3.2rem;
+}
+
+.sec2-home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-program h1{
+    margin-left: 40px;
+}
+
+.box-program{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.sec2-home{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-box{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+.box-program img{
+    height: 200px;
+}
+
+.box-program h1{
+    font-size: 2.1rem;
+}
+
+.card-box a{
+    color: black;
+}
+
+.card-box:hover a{
+    text-decoration: none;
+}
+
+.sec1-konsultasi-user{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 110vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec1-konsultasi-user h1{
+    font-size: 3rem;
+}
+
+.sec1-konsultasi-user img{
+    height: 600px;
+}
+
+.sec1-konsultasi-user a{
+    color: rgb(243, 243, 243);
+}
+
+.sec1-konsultasi-user:hover a{
+    text-decoration: none;
+}
+
+.nav-bmi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 249, 103, 1);
+    width: 330px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.489);
+    transition: 0.4s;
+}
+
+.nav-bmi:hover{
+    background-color: rgb(17, 251, 52);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.489);
+}
+
+.sec2-konsultasi-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-konsultasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(242, 242, 242);
+    width: 600px;
+    height: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 253, 108);
+}
+
+.card-konsultasi input{
+    padding: 10px;
+    width: 320px;
+}
+
+.card-konsultasi textarea{
+    padding: 5px;
+    width: 330px;
+    height: 200px;
+    font-family:sans-serif;
+}
+
+.card-konsultasi button{
+    width: 340px;
+    height: 30px;
+    background-color: rgb(10, 253, 108);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sec-kalkulator-user{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container-kalkulator{
+    width: 500px;
+    height: 500px;
+    outline: 1px solid rgba(22, 22, 22, 0.337);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-kalkulator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-kalkulator input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 180px;
+}
+
+.card-kalkulator button{
+    background-color: rgb(10, 253, 108);
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.sec-kontak-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container-kontak h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.0rem;
+}
+
+.container-kontak{
+    font-size: 1.3rem;
+}
+
+.card-kontak{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.container-kontak{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+}
+
+.input-saran{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-saran input{
+    padding: 5px;
+    width: 250px;
+}
+
+.input-saran textarea{
+    height: 150px;
+    padding: 3px;
+}
+
+.input-saran button{
+    height: 40px;
+    background-color: rgb(10, 253, 108);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.input-saran:hover button{
+    background-color: rgb(4, 222, 91);
+}
+
+.sec-informasi-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.container-informasi-user{
+    background-color: rgb(251, 251, 251);
+    outline: 1px solid rgba(0, 0, 0, 0.453);
+    width: 70%;
+    height: 600px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    gap: 15px;
+
+}
+
+.container-informasi-user h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* BAGIAN ADMIN */
+
+.sec1-konsul-admin{
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    margin-top: 100px;
+    /* align-items: center; */
+}
+
+.nav-admin{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-admin a{
+    color: black;
+
+}
+
+.nav-admin:hover a{
+    text-decoration: none;
+}
+
+.box-nav-admin{
+    width: 180px;
+    height: 30px;
+    outline: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.box-nav-admin:hover{
+    background-color: rgb(29, 253, 134);
+}
+
+.sec1-menu-admin{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec1-menu-admin h1{
+    font-size: 3rem;
+}
+
+.sec1-menu-admin img{
+    height: 500px;
+}
+
+/* KONSULTASI ADMIN */
+
+.card-konsul-admin{
+    width: 1100px;
+    height: 500px;
+    outline: 1px solid rgba(0, 0, 0, 0.379);
+    background-color: aliceblue;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    overflow: scroll;
+}
+
+.card-konsul-admin::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+
+.card-konsul-admin h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(27, 27, 27);
+}
+
+/* BMI ADMIN */
+
+.sec-bmi-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+
+}
+
+.container-bmi-admin{
+    width: 700px;
+    height: 500px;
+    outline: 1px solid rgba(0, 0, 0, 0.422);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+}
+
+.container-bmi-admin h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.sec-saran-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.container-saran-admin{
+    width: 800px;
+    height: 500px;
+    outline: 1px solid rgba(0, 0, 0, 0.329);
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    overflow: scroll;
+}
+
+.container-saran-admin::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+
+/* PENGATURAN ADMIN */
+
+.sec-pengaturan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container-pengaturan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    outline: 1px solid rgba(0, 0, 0, 0.464);
+    border-radius: 10px;
+    width: 900px;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+}
+
+.container-pengaturan h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-input-pengaturan{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-input-pengaturan input{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 250px;
+    outline: 1px solid rgba(0, 0, 0, 0.203);
+}
+
+.card-input-pengaturan button{
+    height: 35px;
+    background-color: rgb(10, 253, 108);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-berita{
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+    outline: 1px solid rgba(0, 0, 0, 0.347);
+    overflow-y: scroll;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+.box-berita::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+
+.sec-edit-berita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    gap: 15px;
+}
+
+.container-edit-berita{
+    width: 900px;
+    height: 500px;
+    outline: 1px solid rgba(0, 0, 0, 0.407);
+    background-color: rgb(241, 241, 241);
+    overflow: scroll;
+    gap: 50px;
+    padding: 10px;
+}
+
+.form-berita{
+    /* background-color: rgb(34, 249, 116);
+    width: 800px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 10px; */
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.form-berita button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(34, 249, 116);
+    border: none;
+    cursor: pointer;
+}
+
+.form-berita a{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(255, 37, 8);
+    border: none;
+    color: white;
+}
+
+
+.container-edit-berita::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+
+.container-berita{
+    width: 900px;
+    height: 500px;
+    outline: 1px solid rgba(0, 0, 0, 0.407);
+    background-color: rgb(241, 241, 241);
+    overflow: scroll;
+    gap: 50px;
+    padding: 10px;
+}
+
+.sec-berita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    gap: 15px;
+}
+
+.container-berita input{
+    width: 370px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.container-berita textarea{
+    height: 300px;
+
+}
+
+.container-berita button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(34, 249, 116);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/* PENGATURAN RESPONSIVE */
+
+@media(max-width:600px){
+    .card-register{
+        width: 300px;
+        height: 300px;
+    }
+}
